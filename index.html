@@ -158,9 +158,16 @@
 										<ul>
 											<li>Uma empresa de tecnologia, está buscando otimizar suas operações e oferecer serviços mais eficientes aos seus clientes. Como parte desse esforço, eles desejam melhorar a maneira como lidam com o transporte de produtos para diferentes destinos, com destaque para a cidade do Rio de Janeiro. Para isso, eles precisam entender melhor o volume de vendas e a demanda por produtos nessa região.</li>
 										</ul>
+									<h3>Objetivos</h3>
+										<ul>
+											<li>Criar uma tarefa que lê os dados da tabela 'Order' do banco de dados disponível em data/Northwind_small.sqlite. Sendo que o banco é um SQLite, esta tarefa deve escrever um arquivo chamado "output_orders.csv".</li>
+											<li>Criar outra tarefa que lê os dados da tabela 'OrderDetail' do mesmo banco e faz um join com o arquivo "output_orders.csv" exportado pela tarefa anterior. Esta tarefa deve calcular a soma da quantidade vendida (Quantity) com destino (ShipCity) para o Rio de Janeiro.</li>
+											<li>Exportar essa contagem em um arquivo "count.txt" que contenha apenas esse valor em formato de texto.</li>
+											<li>Criar uma ordem de execução das tarefas de modo que a última tarefa seja "export_final_output".</li>
+										</ul>
 								</section>
 								
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+																
 							</article>
 							<!-- Projeto 2-->
 							<article class="col-6 col-12-xsmall work-item">
