@@ -3226,7 +3226,7 @@ input, select, textarea {
 
 .skills-section .p-2 {
   flex: 1; /* Garante que cada artigo ocupe espaço igual */
-  min-width: 200px; /* Define uma largura mínima */
+  min-width: 300px; /* Define uma largura mínima */
   box-sizing: border-box; /* Inclui padding e borda no tamanho total */
 }
 
