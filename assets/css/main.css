@@ -3230,7 +3230,7 @@ input, select, textarea {
   box-sizing: border-box; /* Inclui padding e borda no tamanho total */
 }
 
-@media (max-width: 768px) {
+@media (max-width: 320px) {
   .skills-section {
     flex-direction: column; /* Empilha os artigos em telas menores */
   }
