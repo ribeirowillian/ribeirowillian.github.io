@@ -111,7 +111,7 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #0a0a0a;
+		color: #000000;
 		text-decoration: none;
 	}
 
