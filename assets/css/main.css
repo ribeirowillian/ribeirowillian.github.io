@@ -111,13 +111,13 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #DEB887;
+		color: #2d3331;
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #DEB887 !important;
+			color: #49bf9d !important;
 			text-decoration: none;
 		}
 
@@ -1841,7 +1841,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #DEB887;
+			border-color: #49bf9d;
 		}
 
 	select {
@@ -1946,7 +1946,7 @@ input, select, textarea {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #DEB887;
+			border-color: #49bf9d;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2464,8 +2464,8 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			border-color: #DEB887;
-			color: #DEB887 !important;
+			border-color: #49bf9d;
+			color: #49bf9d !important;
 		}
 
 		input[type="submit"]:active,
@@ -2473,8 +2473,8 @@ input, select, textarea {
 		input[type="button"]:active,
 		.button:active {
 			background-color: rgba(73, 191, 157, 0.1);
-			border-color: #DEB887;
-			color: #DEB887 !important;
+			border-color: #49bf9d;
+			color: #49bf9d !important;
 		}
 
 		input[type="submit"].icon,
@@ -2517,8 +2517,8 @@ input, select, textarea {
 		input[type="reset"].primary,
 		input[type="button"].primary,
 		.button.primary {
-			background-color: #DEB887;
-			border-color: #DEB887;
+			background-color: #49bf9d;
+			border-color: #49bf9d;
 			color: #ffffff !important;
 		}
 
