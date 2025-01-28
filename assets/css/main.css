@@ -110,14 +110,14 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		border-bottom: none;
-		color: #DEB887;
+		border-bottom: dotted 1px;
+		color: #D2B48C;
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #DEB887 !important;
+			color: #D2B48C !important;
 			text-decoration: none;
 		}
 
